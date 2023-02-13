@@ -1,0 +1,25 @@
+.specialh {
+    color: red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+  }     
+  
+a:visited {
+    color: green;
+  }
+
+
+.spanstyle {
+    color:blue;
+}
+
+#div {
+    color:pink;
+}
