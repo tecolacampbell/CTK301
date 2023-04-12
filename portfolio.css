@@ -66,5 +66,11 @@ footer{
   text-align: center;
   font-size: small;
 }
-
-
+footer a{
+  color: black;
+  transition: all .5s;
+  font-size: 2em;
+}
+footer a:hover{
+color: #f74891;
+}
