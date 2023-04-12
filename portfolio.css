@@ -1,0 +1,70 @@
+body {
+  background-image: url("pinkchrome Large.jpeg") ;
+  background-size: cover;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 24px;
+  background-color: rgb(253, 247, 252);
+  
+}
+
+nav{
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color:#f74891 ;
+
+}
+.About{
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: rgb(255, 254, 254);
+  background-image:linear-gradient(45deg, #f74891, #fed9f8) ;
+  font-size: 14px;
+  border-radius: 30px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+
+.content{
+  margin-top: 10%;
+  max-width: 400px;
+  text-align: center;
+}
+.content h1{
+  font-size: 70px;
+  color: black;
+}
+
+footer{
+  margin: 25px auto;
+  width: 1200px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+  font-size: small;
+}
+
+
