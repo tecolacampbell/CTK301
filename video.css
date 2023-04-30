@@ -1,0 +1,104 @@
+body{
+    background-image: url("pinkchrome Large.jpeg") ;
+    background-size: cover;
+
+}
+  .container{
+    background-color:rgb(253, 247, 252);
+    display: grid;
+    height:100vh ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr 1.2fr 1.2fr 0.6fr;
+    grid-template-areas: "nav nav nav nav" "main main main main" "Content1 Content2 Content3 Content4" "Content5 Content6 Content7 Content8" "footer footer footer footer";
+    grid-gap: 0.8rem;
+  }
+
+nav{
+    background:rgb(255, 255, 255);
+    grid-area: nav;
+    padding: 6px;
+    margin: 12px auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+            .logo{
+                width:100px;
+            }
+            
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 6px 11px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: rgb(22, 22, 22);
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color:#f74891 ;
+            }
+            .About{
+                display: inline-block;
+                text-decoration: none;
+                padding: 12px 25px;
+                color: rgb(255, 254, 254);
+                background-image:linear-gradient(45deg, #f74891, #fed9f8) ;
+                font-size: 14px;
+                border-radius: 120px;
+                margin-right: 12px;
+                font-weight: bold;
+            }
+
+main{
+    grid-area: main;
+    text-align: center;
+}
+#Content1{
+    grid-area: Content1;
+}
+#Content2{
+    grid-area: Content2;
+
+}
+#Content3{
+    grid-area: Content3;
+}
+#Content4{
+    grid-area: Content4;
+
+}
+#Content5{
+    grid-area: Content5;
+}
+#Content6{
+    grid-area: Content6;
+
+}
+#Content7{
+    grid-area: Content7;
+}
+#Content8{
+    grid-area: Content8;
+
+}
+footer{
+    background-color:rgb(255, 255, 255);
+    grid-area: footer;
+    color: black;
+    text-align: center;
+    font-size: small;
+}
+footer a{
+  color: black;
+  transition: all .5s;
+  font-size: 2em;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+footer a:hover{
+color: #f74891;
+}
+

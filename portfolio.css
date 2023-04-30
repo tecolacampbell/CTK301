@@ -4,20 +4,25 @@ body {
 }
 
 #wrapper {
-  margin: 24px auto;
+  margin: 20px auto;
   width: 1200px;
+  max-height: 1920px;
   border: 1px solid rgb(255, 255, 255);
-  padding: 24px;
+  padding: 20px;
   background-color: rgb(253, 247, 252);
   
 }
 
 nav{
   background-color: rgb(255, 255, 255);
-  padding: 10px 0;
+  padding: 6px;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.logo{
+  width:140px;
 }
 
 nav ul li{
@@ -45,12 +50,16 @@ nav ul li a:hover{
   margin-right: 15px;
   font-weight: bold;
 }
-
+.feature-img{
+  width: 740px;
+  position:absolute;
+  bottom: 70px;;
+  right:0;
+}
 
 .content{
   margin-top: 10%;
   max-width: 400px;
-  text-align: center;
 }
 .content h1{
   font-size: 70px;
@@ -59,8 +68,7 @@ nav ul li a:hover{
 
 footer{
   margin: 25px auto;
-  width: 1200px;
-  padding: 10px;
+  padding: 20px;
   background-color: rgb(255, 255, 255);
   color: black;
   text-align: center;
@@ -70,7 +78,11 @@ footer a{
   color: black;
   transition: all .5s;
   font-size: 2em;
+  padding-right: 7px;
+  padding-left: 7px;
 }
 footer a:hover{
 color: #f74891;
 }
+
+
