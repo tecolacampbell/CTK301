@@ -1,0 +1,120 @@
+
+nav{
+    background:rgb(255, 255, 255);
+    grid-area: nav;
+    padding: 10px;
+    margin: 0px auto;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+            .logo{
+                width:100px;
+                height: 100px;
+            }
+            
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 6px 11px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: rgb(22, 22, 22);
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color:#f74891 ;
+            }
+            .About{
+                display: inline-block;
+                text-decoration: none;
+                padding: 12px 25px;
+                color: rgb(255, 254, 254);
+                background-image:linear-gradient(45deg, #f74891, #fed9f8) ;
+                font-size: 14px;
+                border-radius: 120px;
+                margin-right: 12px;
+                font-weight: bold;
+            }
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: pink;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url("img2.JPEG") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.T{
+    padding: 30px 100px;
+
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+article h1:after{
+    content:"";
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+
+article img{
+    height:225px;
+    width:200px;
+    border:2px solid#fff;
+    background-color: rgb(252, 78, 173);
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+blockquote{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+article h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+article p{
+    font-size: 14px;
+}
+
+article a{
+        color: rgb(255, 255, 255);
+        transition: all .5s;
+        font-size: 2em;
+        padding-right: 7px;
+        padding-left: 7px;
+      }
+article a:hover{
+      color: #f74891;
+      }
+}
